@@ -1,0 +1,1 @@
+This is the first project for the Odin Project. It is aimed to create a replica of the google home page. 
