@@ -1,5 +1,5 @@
 :root {
-    --border-color: rgba(211, 211, 211, 0.966);
+     --border-color: rgba(211, 211, 211, 0.966);
 
 }
 html {
@@ -45,6 +45,15 @@ a {
     float: right;
 }
 
+#sign-in {
+    background-color: #4169e1;
+    padding: .8rem 2.7rem;
+}
+
+.google-logo {
+    margin: 2rem;
+}
+
 .searchbar {
     display: flex;
     align-items: center;
@@ -56,16 +65,51 @@ a {
     padding: .5rem 1rem .5rem 1rem;
 }
 
+.searchbar:hover {
+    border-color: #fff;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
 .search-icon {
-    width: 25px;
-    height: 25px;
+    width: 2rem;
+    height: 2rem;
     border: none;
+}
+
+.microphone-icon {
+    width: 1.5rem;
+    height: 2rem;
+    background-color: #fff;
+}
+
+.voice-search {
+    background-color: #fff;
+    border: none;
+
 }
 
 .search-input {
     width: 90%;
     font-size: 1.5rem;
     border: none;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.button-search {
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    height: 3.4rem;
+    margin: 2rem .5rem 0 .5rem;
+    border: none;
+}
+
+.button-search:hover {
+    border: solid;
+    border-width: .1rem;
+    border-color:rgb(235, 235, 235);
 }
 
 .footer {
@@ -77,10 +121,6 @@ a {
     justify-content: space-between;
     width: 100%;
     background-color: rgb(235, 235, 235);
-    color: rgb(158, 158, 158);
+    color: rgb(200, 200, 200);
     padding: 1.5rem;
-
-    a {
-        color: rgb(225, 225, 225);
-    }
 }
